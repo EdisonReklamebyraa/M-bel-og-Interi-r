@@ -2221,28 +2221,33 @@ a.pdf {
   overflow: hidden;
 }
 /* line 41, ../src/elements/_box.scss */
+.box .box-content p {
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+/* line 45, ../src/elements/_box.scss */
 .box .box-content .line {
   margin: 0;
   border-top: 1px solid #dfdede;
   padding-bottom: 4px;
 }
-/* line 45, ../src/elements/_box.scss */
+/* line 49, ../src/elements/_box.scss */
 .box .box-content .article-intro p {
   font-size: 12px;
   line-height: 13px;
   line-height: 15px;
   margin-bottom: 10px;
 }
-/* line 51, ../src/elements/_box.scss */
+/* line 55, ../src/elements/_box.scss */
 .box .box-content .links ul {
   list-style-position: inside;
   list-style-type: none;
 }
-/* line 54, ../src/elements/_box.scss */
+/* line 58, ../src/elements/_box.scss */
 .box .box-content .links ul li {
   margin-bottom: 10px;
 }
-/* line 56, ../src/elements/_box.scss */
+/* line 60, ../src/elements/_box.scss */
 .box .box-content .links ul li a {
   font-size: 11px;
 }
@@ -2599,12 +2604,13 @@ h1.article-header {
   float: left;
   padding-right: 10px;
   width: 224px;
+  margin-bottom: 12px;
 }
-/* line 122, ../src/elements/_article.scss */
+/* line 123, ../src/elements/_article.scss */
 .linklist h3 {
   margin-bottom: 7px;
 }
-/* line 125, ../src/elements/_article.scss */
+/* line 126, ../src/elements/_article.scss */
 .linklist a {
   font-size: 12px;
   padding-bottom: 7px;
@@ -2616,7 +2622,7 @@ h1.article-header {
 .linklist a:hover {
   text-decoration: underline;
 }
-/* line 132, ../src/elements/_article.scss */
+/* line 133, ../src/elements/_article.scss */
 .linklist.last {
   padding-right: 0px;
   width: 234px;

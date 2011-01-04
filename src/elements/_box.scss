@@ -38,6 +38,10 @@
        }
 	.box-content {
 	  	overflow: hidden;
+      p {
+        margin-bottom: 10px;
+        line-height: 14px;
+      }
 		  .line {
 		    margin: 0;
 		    border-top: 1px solid $light-gray;
