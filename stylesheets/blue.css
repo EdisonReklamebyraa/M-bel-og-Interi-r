@@ -1658,11 +1658,11 @@ a.pdf {
 }
 /* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 #content .footer .col-1 a:focus {
-  color: #0a0a0a;
+  color: #547a8c;
 }
 /* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 #content .footer .col-1 a:hover {
-  color: #2f7aaf;
+  color: #547a8c;
 }
 /* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 #content .footer .col-1 a:active {
@@ -2210,11 +2210,11 @@ a.pdf {
 }
 /* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .box h3 a:focus {
-  color: #0a0a0a;
+  color: #547a8c;
 }
 /* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .box h3 a:hover {
-  color: #2f7aaf;
+  color: #547a8c;
 }
 /* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .box h3 a:active {
@@ -2315,11 +2315,11 @@ a.pdf {
 }
 /* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .kalender h3 a:focus {
-  color: #0a0a0a;
+  color: #547a8c;
 }
 /* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .kalender h3 a:hover {
-  color: #2f7aaf;
+  color: #547a8c;
 }
 /* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .kalender h3 a:active {
@@ -2509,11 +2509,11 @@ h1.article-header {
 }
 /* line 21, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .byline .person a:focus {
-  color: #0a0a0a;
+  color: #547a8c;
 }
 /* line 24, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .byline .person a:hover {
-  color: #2f7aaf;
+  color: #547a8c;
 }
 /* line 27, ../../../../../Ruby/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/links/_link-colors.scss */
 .byline .person a:active {
@@ -2630,4 +2630,38 @@ h1.article-header {
 .linklist.last {
   padding-right: 0px;
   width: 234px;
+}
+
+/* line 138, ../src/elements/_article.scss */
+.facts {
+  width: 170px;
+  font-size: 11px;
+}
+/* line 141, ../src/elements/_article.scss */
+.facts h3 {
+  color: #353535;
+  font-weight: bold;
+}
+/* line 145, ../src/elements/_article.scss */
+.facts .content {
+  color: #353535;
+  line-height: 16px;
+}
+/* line 148, ../src/elements/_article.scss */
+.facts .content li {
+  padding-left: 5px;
+}
+
+/* line 153, ../src/elements/_article.scss */
+.fr {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #acb2b6;
+}
+
+/* line 158, ../src/elements/_article.scss */
+.fl {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #acb2b6;
 }

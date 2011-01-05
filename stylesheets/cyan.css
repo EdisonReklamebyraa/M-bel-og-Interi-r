@@ -2631,3 +2631,37 @@ h1.article-header {
   padding-right: 0px;
   width: 234px;
 }
+
+/* line 138, ../src/elements/_article.scss */
+.facts {
+  width: 170px;
+  font-size: 11px;
+}
+/* line 141, ../src/elements/_article.scss */
+.facts h3 {
+  color: #353535;
+  font-weight: bold;
+}
+/* line 145, ../src/elements/_article.scss */
+.facts .content {
+  color: #353535;
+  line-height: 16px;
+}
+/* line 148, ../src/elements/_article.scss */
+.facts .content li {
+  padding-left: 5px;
+}
+
+/* line 153, ../src/elements/_article.scss */
+.fr {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #acb2b6;
+}
+
+/* line 158, ../src/elements/_article.scss */
+.fl {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #acb2b6;
+}
