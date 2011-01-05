@@ -65,6 +65,9 @@
 		color: ($menu-linkcolor);
 		font-family: ($subfont);
 	}
+	.active {
+		color: ($default_linkcolor);
+	}
 	.container {
 	  width: 1124px;
 	  margin-left: auto;
