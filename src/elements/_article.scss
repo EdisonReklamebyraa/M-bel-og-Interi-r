@@ -162,10 +162,11 @@ h1.article-header {
   .caption {
     display: block;
     clear: both;
-    font-size: 12px;
+    font-size: 11px;
     color: $article-color-2;
     padding: 6px 2px 7px;
-    line-height: 16px;
+    line-height: 13px;
     border-bottom: 1px solid $border-gray;
+    margin-bottom: 6px;
   }
 }

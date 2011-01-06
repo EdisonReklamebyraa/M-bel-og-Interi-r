@@ -2667,9 +2667,10 @@ h1.article-header {
 .facts .caption {
   display: block;
   clear: both;
-  font-size: 12px;
+  font-size: 11px;
   color: #353535;
   padding: 6px 2px 7px;
-  line-height: 16px;
+  line-height: 13px;
   border-bottom: 1px solid #acb2b6;
+  margin-bottom: 6px;
 }
