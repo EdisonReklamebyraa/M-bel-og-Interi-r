@@ -1401,7 +1401,7 @@ a.pdf {
 
 /* line 915, ../src/partials/_main.scss */
 .searchinfo {
-  width: 297px;
+  width: 50%;
   text-align: center;
   float: left;
 }
@@ -1428,19 +1428,21 @@ a.pdf {
 .searchresult .next-wrapper {
   float: right;
   font-weight: bold;
+  width: 25%;
 }
-/* line 934, ../src/partials/_main.scss */
+/* line 935, ../src/partials/_main.scss */
 .searchresult .prev-wrapper {
   float: left;
   font-weight: bold;
+  width: 25%;
 }
 
-/* line 938, ../src/partials/_main.scss */
+/* line 940, ../src/partials/_main.scss */
 .box .nobg {
   background: none;
 }
 
-/* line 943, ../src/partials/_main.scss */
+/* line 945, ../src/partials/_main.scss */
 .sdz {
   text-align: center;
   background: #373535;
@@ -1449,7 +1451,7 @@ a.pdf {
   display: table-cell;
 }
 
-/* line 950, ../src/partials/_main.scss */
+/* line 952, ../src/partials/_main.scss */
 .type-2, .type-3 {
   border-bottom: 0;
   padding: 0 2px;
@@ -1459,12 +1461,12 @@ a.pdf {
    *	color:#2e5775; */
 }
 
-/* line 958, ../src/partials/_main.scss */
+/* line 960, ../src/partials/_main.scss */
 .type-2 h2, .type-3 h2 {
   margin: 0 0 0 -2px;
 }
 
-/* line 962, ../src/partials/_main.scss */
+/* line 964, ../src/partials/_main.scss */
 .col-3 .type-2 h2, .col-3 .type-3 h2 {
   border: none;
   /*	background:url(../images/box-type2-header-bg.jpg) no-repeat; */
@@ -1473,7 +1475,7 @@ a.pdf {
    *	font-family:"Times New Roman", Times, serif; */
 }
 
-/* line 969, ../src/partials/_main.scss */
+/* line 971, ../src/partials/_main.scss */
 .type-2 .box-content h3, .type-3 .box-content h3 {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -1481,52 +1483,52 @@ a.pdf {
   line-height: 22px;
 }
 
-/* line 975, ../src/partials/_main.scss */
+/* line 977, ../src/partials/_main.scss */
 .type-2 .box-content h3.georgia, .type-3 .box-content h3.georgia {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 978, ../src/partials/_main.scss */
+/* line 980, ../src/partials/_main.scss */
 .type-2 .box-content p, .type-3 .box-content p {
   font-size: 12px;
   color: #1b1c20;
   margin-bottom: 12px;
 }
 
-/* line 984, ../src/partials/_main.scss */
+/* line 986, ../src/partials/_main.scss */
 .type-2 .box-content .article-intro h3 a {
   /*	color:#131313; */
 }
-/* line 986, ../src/partials/_main.scss */
+/* line 988, ../src/partials/_main.scss */
 .type-2 .box-content a.arrow {
   margin-bottom: 6px;
 }
 
-/* line 989, ../src/partials/_main.scss */
+/* line 991, ../src/partials/_main.scss */
 .type-3 .box-content a.arrow {
   margin-bottom: 6px;
 }
 
-/* line 992, ../src/partials/_main.scss */
+/* line 994, ../src/partials/_main.scss */
 .type-2 .has-image .image-wrapper, .type-3 .has-image .image-wrapper {
   float: left;
   width: 110px;
   padding-top: 3px;
 }
 
-/* line 997, ../src/partials/_main.scss */
+/* line 999, ../src/partials/_main.scss */
 .type-2 .has-image .content-wrapper, .type-3 .has-image .content-wrapper {
   float: left;
   width: 160px;
 }
 
-/* line 1001, ../src/partials/_main.scss */
+/* line 1003, ../src/partials/_main.scss */
 .type-2 .box-content {
   background: url(../images/type-2-bg.jpg) repeat-x bottom;
   padding-bottom: 13px;
 }
 
-/* line 1005, ../src/partials/_main.scss */
+/* line 1007, ../src/partials/_main.scss */
 .type-3 .box-content {
   background: url(../images/type-3-bg.jpg) repeat-x bottom;
   border-left: 1px solid #e1e1e0;
@@ -1534,12 +1536,12 @@ a.pdf {
   padding-bottom: 6px;
 }
 
-/* line 1011, ../src/partials/_main.scss */
+/* line 1013, ../src/partials/_main.scss */
 .type-2 .box-content .padder, .type-3 .box-content .padder {
   padding: 5px 5px 0 5px;
 }
 
-/* line 1014, ../src/partials/_main.scss */
+/* line 1016, ../src/partials/_main.scss */
 .box-type-2-footer {
   margin: 0;
   width: auto;
@@ -1548,17 +1550,17 @@ a.pdf {
   margin-bottom: 10px;
 }
 
-/* line 1023, ../src/partials/_main.scss */
+/* line 1025, ../src/partials/_main.scss */
 .box .box-content .one-line {
   margin-bottom: 0.5em;
 }
 
-/* line 1027, ../src/partials/_main.scss */
+/* line 1029, ../src/partials/_main.scss */
 .no-bg {
   background: none !important;
 }
 
-/* line 1030, ../src/partials/_main.scss */
+/* line 1032, ../src/partials/_main.scss */
 .googlemap, .map-container {
   margin-bottom: 10px;
 }
