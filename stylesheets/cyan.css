@@ -2638,30 +2638,28 @@ h1.article-header {
   font-size: 11px;
 }
 /* line 141, ../src/elements/_article.scss */
-.facts h3 {
-  color: #353535;
-  font-weight: bold;
-}
-/* line 145, ../src/elements/_article.scss */
-.facts .content {
-  color: #353535;
-  line-height: 16px;
-}
-/* line 148, ../src/elements/_article.scss */
-.facts .content li {
-  padding-left: 5px;
-}
-
-/* line 153, ../src/elements/_article.scss */
-.fr {
+.facts.fr {
   margin-left: 10px;
   padding-left: 10px;
   border-left: 1px solid #acb2b6;
 }
-
-/* line 158, ../src/elements/_article.scss */
-.fl {
+/* line 146, ../src/elements/_article.scss */
+.facts.fl {
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px solid #acb2b6;
+}
+/* line 151, ../src/elements/_article.scss */
+.facts h3 {
+  color: #353535;
+  font-weight: bold;
+}
+/* line 155, ../src/elements/_article.scss */
+.facts .content {
+  color: #353535;
+  line-height: 16px;
+}
+/* line 158, ../src/elements/_article.scss */
+.facts .content li {
+  padding-left: 5px;
 }

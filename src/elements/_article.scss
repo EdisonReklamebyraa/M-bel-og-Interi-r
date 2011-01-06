@@ -138,6 +138,16 @@ h1.article-header {
 .facts {
   width: 170px;
   font-size: 11px;
+  &.fr {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid $border-gray;
+  }
+  &.fl {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid $border-gray;
+  }
   h3 {
     color: $article-color-2;
     font-weight: bold;
@@ -149,14 +159,4 @@ h1.article-header {
       padding-left: 5px;
     }
   }
-}
-.fr {
-  margin-left: 10px;
-  padding-left: 10px;
-  border-left: 1px solid $border-gray;
-}
-.fl {
-  margin-right: 10px;
-  padding-right: 10px;
-  border-right: 1px solid $border-gray;
 }
