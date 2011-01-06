@@ -159,4 +159,13 @@ h1.article-header {
       padding-left: 5px;
     }
   }
+  .caption {
+    display: block;
+    clear: both;
+    font-size: 12px;
+    color: $article-color-2;
+    padding: 6px 2px 7px;
+    line-height: 16px;
+    border-bottom: 1px solid $border-gray;
+  }
 }
