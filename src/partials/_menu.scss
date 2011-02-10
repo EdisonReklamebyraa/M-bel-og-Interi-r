@@ -53,7 +53,7 @@
 #sub-menu {
 	@include horizontal-list(0,left);
 	ul {
-		padding-top: 5px;
+		padding-top: 2px;
 	}
 	a {
 		height:18px; 
@@ -74,7 +74,7 @@
 	  margin-right: auto; 
 	  background-color: #ffffff; 
 	  padding-left: 10px;
-	  height: 30px;
+	  height: 25px;
 	}
 	.submenu-bottom{
 		background: url(../images/vertical_shaddow.jpg) no-repeat;

@@ -1979,7 +1979,7 @@ a.pdf {
 }
 /* line 55, ../src/partials/_menu.scss */
 #sub-menu ul {
-  padding-top: 5px;
+  padding-top: 2px;
 }
 /* line 58, ../src/partials/_menu.scss */
 #sub-menu a {
@@ -2007,7 +2007,7 @@ a.pdf {
   margin-right: auto;
   background-color: #ffffff;
   padding-left: 10px;
-  height: 30px;
+  height: 25px;
 }
 /* line 79, ../src/partials/_menu.scss */
 #sub-menu .submenu-bottom {
