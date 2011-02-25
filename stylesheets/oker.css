@@ -2546,51 +2546,56 @@ h1.article-header {
   color: #353535;
   float: left;
 }
+/* line 74, ../src/elements/_article.scss */
+.tools iframe {
+  float: right;
+  margin-right: 10px;
+}
 
-/* line 75, ../src/elements/_article.scss */
+/* line 79, ../src/elements/_article.scss */
 .banner {
   margin-top: 20px;
 }
 
-/* line 78, ../src/elements/_article.scss */
+/* line 82, ../src/elements/_article.scss */
 .paragraph {
   margin-top: 20px;
 }
-/* line 80, ../src/elements/_article.scss */
+/* line 84, ../src/elements/_article.scss */
 .paragraph h2 {
   font-weight: bold;
 }
-/* line 83, ../src/elements/_article.scss */
+/* line 87, ../src/elements/_article.scss */
 .paragraph p {
   margin-bottom: 12px;
 }
-/* line 86, ../src/elements/_article.scss */
+/* line 90, ../src/elements/_article.scss */
 .paragraph .picture {
   width: 259px;
 }
-/* line 88, ../src/elements/_article.scss */
+/* line 92, ../src/elements/_article.scss */
 .paragraph .picture.fr {
   margin-left: 10px;
 }
-/* line 91, ../src/elements/_article.scss */
+/* line 95, ../src/elements/_article.scss */
 .paragraph .picture.fl {
   margin-right: 10px;
 }
-/* line 93, ../src/elements/_article.scss */
+/* line 97, ../src/elements/_article.scss */
 .paragraph .picture caption {
   float: right;
   overflow: hidden;
   font-size: 12px;
   line-height: 12px;
 }
-/* line 99, ../src/elements/_article.scss */
+/* line 103, ../src/elements/_article.scss */
 .paragraph .picture img {
   border: 5px solid white;
   padding: 5px;
   border: 1px solid #acb2b6;
   background-color: white;
 }
-/* line 105, ../src/elements/_article.scss */
+/* line 109, ../src/elements/_article.scss */
 .paragraph .picture .caption {
   display: block;
   clear: both;
@@ -2601,7 +2606,7 @@ h1.article-header {
   border-bottom: 1px solid #acb2b6;
 }
 
-/* line 117, ../src/elements/_article.scss */
+/* line 121, ../src/elements/_article.scss */
 .linklist {
   width: 50%;
   float: left;
@@ -2609,11 +2614,11 @@ h1.article-header {
   width: 224px;
   margin-bottom: 12px;
 }
-/* line 123, ../src/elements/_article.scss */
+/* line 127, ../src/elements/_article.scss */
 .linklist h3 {
   margin-bottom: 7px;
 }
-/* line 126, ../src/elements/_article.scss */
+/* line 130, ../src/elements/_article.scss */
 .linklist a {
   font-size: 12px;
   padding-bottom: 7px;
@@ -2625,44 +2630,44 @@ h1.article-header {
 .linklist a:hover {
   text-decoration: underline;
 }
-/* line 133, ../src/elements/_article.scss */
+/* line 137, ../src/elements/_article.scss */
 .linklist.last {
   padding-right: 0px;
   width: 234px;
 }
 
-/* line 138, ../src/elements/_article.scss */
+/* line 142, ../src/elements/_article.scss */
 .facts {
   width: 170px;
   font-size: 11px;
 }
-/* line 141, ../src/elements/_article.scss */
+/* line 145, ../src/elements/_article.scss */
 .facts.fr {
   margin-left: 10px;
   padding-left: 10px;
   border-left: 1px solid #acb2b6;
 }
-/* line 146, ../src/elements/_article.scss */
+/* line 150, ../src/elements/_article.scss */
 .facts.fl {
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px solid #acb2b6;
 }
-/* line 151, ../src/elements/_article.scss */
+/* line 155, ../src/elements/_article.scss */
 .facts h3 {
   color: #353535;
   font-weight: bold;
 }
-/* line 155, ../src/elements/_article.scss */
+/* line 159, ../src/elements/_article.scss */
 .facts .content {
   color: #353535;
   line-height: 16px;
 }
-/* line 158, ../src/elements/_article.scss */
+/* line 162, ../src/elements/_article.scss */
 .facts .content li {
   padding-left: 5px;
 }
-/* line 162, ../src/elements/_article.scss */
+/* line 166, ../src/elements/_article.scss */
 .facts .caption {
   display: block;
   clear: both;

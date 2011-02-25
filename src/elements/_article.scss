@@ -71,6 +71,10 @@ h1.article-header {
     color: $article-color-2;
     float: left;
   }
+  iframe {
+    float: right;
+    margin-right: 10px;
+  }
 }
 .banner {
   margin-top: 20px;
