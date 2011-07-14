@@ -79,15 +79,8 @@ h1.article-header {
 }
 
 
-.article .toolbox
-{
-  font-size:11px;
-  border:1px solid #dfdede;
-  border-left:none;
-  border-right:none;
-  padding:5px 0;
-}
-.article .toolbox .addthis_toolbox
+
+.article .tools .addthis_toolbox
 {
   overflow: hidden;
   clear: both;
